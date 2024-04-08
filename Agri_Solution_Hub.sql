@@ -92,20 +92,12 @@ CREATE TABLE `details` (
 --
 
 INSERT INTO `details` (`id`, `phone`, `email`, `address`, `regNo`) VALUES
-(1, '0712345678', 'jackmutiso37@gmail.com', 'jj', 'inte'),
-(2, '0712345678', 'jackmutiso37@gmail.com', 'jj', 'inte'),
-(3, '0712345678', 'jackmutiso37@gmail.com', 'kaba', 'inte/mg'),
-(4, '0712345678', 'jackmutiso37@gmail.com', 'kaba', 'inte/mg'),
-(5, '0712345678', 'jackmutiso37@gmail.com', 'kaba', 'inte/mg'),
-(6, '0712345678', 'jackmutiso37@gmail.com', 'kaba', 'inte/mg'),
 (7, '0712345678', 'jackmutiso37@gmail.com', 'jj', 'inte'),
 (8, '997536363', 'jack@gmail.com', 'nairobi', 'inte'),
-(9, '8876544', 'jackmutiso37@gmail.com', 'iiii', 'econ'),
 (10, '0976544', 'john@gmail.com', 'kiba', 'maths'),
 (11, '254702830006', 'john@gmail.com', 'kk', '00l'),
 (12, '0745378674', 'jack@gmail.com', 'kabarak', 'it'),
 (13, '075343332', 'john@gmail.com', 'arusha', 'eco'),
-(14, '087363534', 'mahlihep@gmail.com', 'kabaraka', 'cs/mg'),
 (15, '0101480104', 'oriel@gmail.com', 'Kericho', 'ede/mg');
 
 -- --------------------------------------------------------
@@ -136,7 +128,7 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `user_id`, `order_id`, `session_id`, `delivery_address`, `total`, `country`, `username`, `email`, `phone`, `state`, `tax`, `shipping`, `date`) VALUES
-(1, '1', 35712801, 'tl5lbd7k2mkudct6gqm0fj2qbb', 'kabarak rafiki', 1, 'Kenya', 'Glady', 'jackmutiso37@gmail.com', '075343332', 'Nakuru', 0, 0, '2023-04-02 07:41:03'),
+(1, '1', 35712801, 'tl5lbd7k2mkudct6gqm0fj2qbb', 'kabarak rafiki', 1, 'Kenya', 'Glady', 'jack@gmail.com', '075343332', 'Nakuru', 0, 0, '2023-04-02 07:41:03'),
 (2, '1', 26434360, 'tl5lbd7k2mkudct6gqm0fj2qbb', 'Kampi', 1, 'Kenya', 'stacy', 'stacia@gmail.com', '254745378674', 'Mombasa', 0, 0, '2023-04-02 08:13:46'),
 (3, '1', 96968732, 'tl5lbd7k2mkudct6gqm0fj2qbb', 'kdo', 1, 'Kenya', 'Elvis', 'elvis@gmail.com', '0712345678', 'Meru', 0, 0, '2023-04-02 08:17:59');
 
@@ -291,8 +283,8 @@ CREATE TABLE `reset` (
 --
 
 INSERT INTO `reset` (`id`, `email`, `code`, `expire`) VALUES
-(1, 'jackmutiso37@gmail.com', '16379', 1680452408),
-(2, 'jackmutiso37@gmail.com', '46095', 1680452473);
+(1, 'jack@gmail.com', '16379', 1680452408),
+(2, 'jack@gmail.com', '46095', 1680452473);
 
 -- --------------------------------------------------------
 
@@ -360,15 +352,15 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `email`, `role`, `password`, `date`) VALUES
-(1, 'Jack', 'jackmutiso37@gmail.com', 2, '12345', '2023-04-02 16:12:18'),
-(3, 'Cesur', 'cesurelvis@gmail.com', 2, 'elvis123', '2023-03-23 08:18:56'),
+(1, 'Jack', 'jack37@gmail.com', 2, '12345', '2023-04-02 16:12:18'),
+(3, 'Cesur', 'cesur@gmail.com', 2, 'elvis123', '2023-03-23 08:18:56'),
 (4, 'Stacy', 'stacia@gmail.com', 1, '12345', '2023-03-13 05:16:55'),
-(6, 'Glady', 'kamaugladys@gmail.com', 1, '12345', '2023-03-18 09:10:50'),
+(6, 'Glady', 'kamauglad@gmail.com', 1, '12345', '2023-03-18 09:10:50'),
 (8, 'newone', 'new@gmail.com', 1, '12345', '2023-03-19 06:19:42'),
-(9, 'jair', 'mahlihep@gmail.com ', 1, 'MAAHLO@7', '2023-03-22 19:26:07'),
-(10, 'jair', 'mahlihep@gmail.com ', 1, 'MAAHLO@7', '2023-03-22 19:26:58'),
-(13, 'Cesur ', 'cesurelvis@gmail.com', 1, 'elvis123', '2023-04-02 11:02:14'),
-(14, 'newone', 'jackmutiso@gmail.com', 1, '12345', '2024-02-02 17:57:47');
+(9, 'jair', 'mahlih@gmail.com ', 1, 'MAAHLO@7', '2023-03-22 19:26:07'),
+(10, 'jair', 'mahl@gmail.com ', 1, 'MAAHLO@7', '2023-03-22 19:26:58'),
+(13, 'Cesur ', 'elvis@gmail.com', 1, 'elvis123', '2023-04-02 11:02:14'),
+(14, 'newone', 'jack2@gmail.com', 1, '12345', '2024-02-02 17:57:47');
 
 --
 -- Indexes for dumped tables
